@@ -189,12 +189,10 @@
 
 ;; Helper function to get job details
 (define-read-only (get-job-details (job-id uint))
-  (asserts! (> job-id u0) err-invalid-input)
   (map-get? jobs job-id)
 )
 
 ;; Helper function to get task details
 (define-read-only (get-task-details (job-id uint) (task-id uint))
-  (asserts! (> job-id u0) err-invalid-input)
   (map-get? task-details { job-id: job-id, task-id: task-id })
 )
