@@ -1,10 +1,10 @@
 # StacksPay
 
-TaskPay is a decentralized task management system built on the Stacks blockchain that enables secure, transparent freelance work arrangements between clients and service providers.
+StacksPay is a decentralized task management system built on the Stacks blockchain that enables secure, transparent freelance work arrangements between clients and service providers.
 
 ## Overview
 
-TaskPay facilitates the entire workflow of task-based freelance work:
+StacksPay facilitates the entire workflow of task-based freelance work:
 
 1. Clients create jobs with clear scope and payment terms
 2. Clients assign providers to jobs
